@@ -28,7 +28,7 @@ android:background="@color/white">
             android:id="@+id/foto"
             android:layout_width="421dp"
             android:layout_height="335dp"
-            tools:src="@tools:sample/backgrounds/scenic" />
+            tools:src="@drawable/fondoimg" />
 
         <TextView
             android:id="@+id/contenidocuadernillo"

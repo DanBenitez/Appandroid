@@ -22,7 +22,7 @@
             android:maxHeight="120dp"
             android:contentDescription="MENU"
             android:scaleType="fitXY"
-            android:src="@drawable/requisito"/>
+            android:src="@drawable/datosimg"/>
 
         <TextView
             android:id="@+id/tv_name_item"
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_gravity="bottom"
-            android:text="Requisitos Generales"
+            android:text="Datos personales"
             android:textSize="15sp"
             android:textColor="@color/black"/>
 
