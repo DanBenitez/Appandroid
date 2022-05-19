@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="10dp">
+
+        <ImageView
+            android:id="@+id/imgrequisito"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:maxWidth="120dp"
+            android:maxHeight="120dp"
+            android:contentDescription="MENU"
+            android:scaleType="fitXY"
+            android:src="@drawable/requisito"/>
+
+        <TextView
+            android:id="@+id/tv_name_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:text="Requisitos Generales"
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
